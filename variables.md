@@ -1,0 +1,5 @@
+## Step 7 : Providing values for Variables
+
+1. Till now, we only used variables without hardcoding any values to resources.
+2. Create two new files with name variables.tf for declaring variables and terrafrom.vars.tf for assigning values to variables declared, Copy the [variables.tf](https://github.com/mathesh-me/two-tier-architecture-aws-using-terraform/blob/main/Two%20tier%20architecture%20in%20AWS%20using%20terraform/variables.tf) for declaring variables and [terraform.tfvars](https://github.com/mathesh-me/two-tier-architecture-aws-using-terraform/blob/main/Two%20tier%20architecture%20in%20AWS%20using%20terraform/terraform.tfvars) file from my repository . Don't forget to customize `terraform.tfvars` according to your requirements.
+3. Now , additionally create a new file with name secret.tfvars for providing values for DB useranme and DB password like this [file](https://github.com/mathesh-me/two-tier-architecture-aws-using-terraform/blob/main/Two%20tier%20architecture%20in%20AWS%20using%20terraform/secret.tfvars)
