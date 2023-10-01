@@ -1,4 +1,4 @@
-![output](https://github.com/mathesh-me/two-tier-architecture-aws-using-terraform/assets/144098846/9acb43da-da40-4100-a890-1a3c1180bcca)## Step 9 : Final Output
+## Step 9 : Final Output
 
 Once the above-mentioned steps are completed, apply the following commands to create the resources:
 ```
