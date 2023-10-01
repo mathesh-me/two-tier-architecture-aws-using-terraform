@@ -3,6 +3,11 @@
 ## Project Description 
 This project aims to create a robust higjly available web application infrastructure using a two-tier architecture on Amazon Web Services (AWS). The architecture comprises a web tier that handles user requests and a database tier for data storage. I leveraged Terraform for Infrastructure as Code (IaC) to provision and manage AWS resources efficiently.
 
+## Architectural Diagram 
+
+![architectural-diagram](https://github.com/mathesh-me/two-tier-architecture-aws-using-terraform/assets/144098846/0bdc98f3-7bb4-4b6f-abd6-e4fa182c3c6c)
+
+
 ## Key Features
 
 - **Infrastructure as Code (IaC):** Leveraging Terraform for defining and provisioning the entire infrastructure, ensuring consistency and repeatability.
