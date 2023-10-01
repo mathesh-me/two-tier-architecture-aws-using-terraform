@@ -1,4 +1,4 @@
-## Step 5 : Creating Load Balancer
+## Step 5 : Creating the Load Balancer
 
 1. I am going to create an Application Load Balancer. To create the Application Load Balancer, we first need to create a new target group.
 2. To create an Elastic Load Balancer target group for routing traffic to instances , we have to create a file for target group with .tf extension.
