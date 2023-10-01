@@ -20,3 +20,27 @@ This project aims to create a robust higjly available web application infrastruc
 ## Terraform Configuration
 
 The Terraform configuration files with(`*.tf`) in this repository define the AWS resources and settings required to create the two-tier architecture AWS infrastructure.
+
+## Steps:
+| Step No | Document Link |
+| ------ | ------ |
+| 1 | [Setting Up the Environment][Step-1] |
+| 2 | [Installing the neccessary plugins][Step-2] |
+| 3 | [Creating a Separate VPC Infrastructure][Step-3] |
+| 4 | [Creating Security Group][Step-4] |
+| 5 | [Creating the Load Balancer][Step-5] |
+| 6 | [Creating Database in Private Subnet][Step-6] |
+| 7 | [Providing values for Variables][Step-7] |
+| 8 | [Getting DNS as Output][Step-8] |
+| 9 | [Final Output][Step-9] |
+
+
+   [Step-1]: <./set-up.md>
+   [Step-2]: <./installing-plugins.md>   
+   [Step-3]: <./vpc.md>
+   [Step-4]: <./security-grp.md>
+   [Step-5]: <./elb.md>   
+   [Step-6]: <./rds.md>
+   [Step-7]: <./variables.md>
+   [Step-8]: <./outputs.md>
+   [Step-9]: <./final-output.md>
