@@ -1,4 +1,4 @@
-![dns](https://github.com/mathesh-me/two-tier-architecture-aws-using-terraform/assets/144098846/0a5eb7df-62b2-4709-95b0-161ab3940795)## Step 8 : Getting DNS as Output
+## Step 8 : Getting DNS as Output
 
 1. We don't have to necessarily need to go to console to fetch the DNS name of our Application Load Balancer , We can get it in terminal using output concept.
 2. Create a new file with name outputs.tf and cpoy the code from [outputs.tf](https://github.com/mathesh-me/two-tier-architecture-aws-using-terraform/blob/main/Two%20tier%20architecture%20i%20AWS%20using%20terraform/outputs.tf) file and paste into it.
