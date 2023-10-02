@@ -31,6 +31,7 @@ resource "aws_security_group" "sg" {
   }
 
   egress {
+    description      = "Rule to allow connections to database from any instances this security group is attached to"
     from_port        = 3306
     to_port          = 3306
     protocol         = "tcp"
