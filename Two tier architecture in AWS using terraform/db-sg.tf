@@ -3,16 +3,6 @@ resource "aws_security_group" "db-sg" {
   description = "Allow tls for inbound traffic"
   vpc_id = aws_vpc.myvpc.id
 
-
-  ingress {
-    description      = "SSH from VPC"
-    from_port        = 22
-    to_port          = 22
-    protocol         = "tcp"
-    cidr_blocks      = ["0.0.0.0/0"]
-    security_groups =  [aws_security_group.sg.id]
-  }
-
   ingress {
     from_port        = 3306
     to_port          = 3306
