@@ -19,6 +19,6 @@ resource "aws_security_group" "db-sg" {
   }
 
   tags = {
-    Name = "allow_tls"
+    Name = var.db-sg-name
   }
 }
