@@ -2,11 +2,11 @@
 
 Once the above-mentioned steps are completed, apply the following commands to create the resources:
 ```
-terraform plan -var-file="secret.tfvars
+terraform plan -var-file="secret.tfvars"
 ```
 The above command will provide you with a preview of the resources that are going to be created.
 ```
-terraform apply -var-file="secret.tfvars
+terraform apply -var-file="secret.tfvars"
 ``` 
 
 This Commands will create your Infrastructure defined in the Configuration files.
