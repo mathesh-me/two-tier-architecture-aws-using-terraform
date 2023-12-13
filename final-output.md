@@ -9,7 +9,7 @@ The above command will provide you with a preview of the resources that are goin
 terraform apply -var-file="secret.tfvars"
 ``` 
 
-This Commands will create your Infrastructure defined in the Configuration files.
+This Commands will create your Infrastructure in AWS.
 
 ![output](https://github.com/mathesh-me/two-tier-architecture-aws-using-terraform/assets/144098846/20bf38fe-6268-46c0-a7fe-d3233dde8b5b)
 
