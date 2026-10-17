@@ -71,12 +71,12 @@ variable "tg-name" {
    description = "Name for Target group"
 }
 
-variable "db-username" {
-   description = "Username for db instance"
+variable "db-username-param" {
+   description = "SSM Parameter Store name holding the db username"
 }
 
-variable "db-password" {
-   description = "Password for db instance"
+variable "db-password-param" {
+   description = "SSM Parameter Store name holding the db password"
 }
 
 variable "db-sg-name" {
